@@ -24,7 +24,7 @@
 <body>
 
   <h1>Privacy Policy</h1>
-  <p class="updated">Last updated: March 20, 2026</p>
+  <p class="updated">Last updated: October 12, 2026</p>
 
   <p>
     Homestead Manager ("we", "our", or "the app") is a personal farm and homestead management application.
@@ -44,10 +44,12 @@
 
   <h2>2. Optional Cloud Backup (Farm Sync)</h2>
   <p>
-    Homestead Manager includes an optional backup and sync feature. If you choose to enable this feature,
-    your farm data is encrypted and stored on Firebase Realtime Database (provided by Google LLC) using
-    a personal backup code that only you control. This data is used solely to restore your records if
-    you change devices. We do not access, read, or share this data.
+    Homestead Manager includes an optional backup and sync feature. If you choose to enable it, a copy
+    of your farm records is sent over an encrypted (HTTPS) connection and stored on Firebase Realtime
+    Database (provided by Google LLC) under a randomly generated Backup Code or Farm Code. Anyone who has
+    your code can access that copy, so keep it private and share a Farm Code only with people you want to
+    sync with. This data is used solely to back up and sync your records between devices. We do not
+    access, read, or share this data.
   </p>
   <p>
     Firebase is subject to Google's own privacy policy:
@@ -57,8 +59,8 @@
   <h2>3. Photos and Camera</h2>
   <p>
     The app may request access to your camera and photo library if you choose to attach photos to
-    animal profiles. Photos are stored locally on your device and are not uploaded to any server
-    unless you explicitly use the backup/sync feature.
+    animal profiles. Photos are stored only on your device and are never uploaded, including when
+    backup/sync is turned on.
   </p>
 
   <h2>4. Notifications</h2>
@@ -70,9 +72,11 @@
 
   <h2>5. Subscriptions and Payments</h2>
   <p>
-    Homestead Manager offers a subscription through the Google Play Store. All payment processing
-    is handled entirely by Google Play. We do not collect or store any payment information, credit card
-    numbers, or billing details. For information on how Google handles payment data, see
+    Homestead Manager offers an auto-renewing subscription through the Apple App Store (on iPhone and
+    iPad) and the Google Play Store (on Android). All payment processing is handled entirely by Apple or
+    Google. We do not collect or store any payment information, credit card numbers, or billing details.
+    For information on how they handle payment data, see the
+    <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple Privacy Policy</a> and the
     <a href="https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice" target="_blank">Google Payments Privacy Notice</a>.
   </p>
 
@@ -86,8 +90,8 @@
   <p>
     All data entered into the app is stored locally on your device using an on-device database (SQLite).
     You can delete all app data at any time by uninstalling the app or using the "Wipe All Data" option
-    in Settings. If you have used the optional cloud backup, your backup data on Firebase can be removed
-    by clearing your backup from the Settings screen.
+    in Settings. If you have used the optional cloud backup or farm sync, you can permanently delete the
+    cloud copy at any time with "Delete cloud data" in the Sync section of Settings.
   </p>
 
   <h2>8. Children's Privacy</h2>
